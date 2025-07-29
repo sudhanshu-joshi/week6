@@ -46,13 +46,13 @@ total_sales = df['TotalAmount'].sum()
 # Example: Monthly Trend
 sales_trend = df.groupby(df['InvoiceDate'].dt.to_period('M'))['TotalAmount'].sum()
 
-#Power BI Dashboard
+## Power BI Dashboard
 Upload the cleaned data and create visuals for:
   Sales over time
   Product-wise and country-wise performance
   KPI cards
 
-#Key Insights
+## Key Insights
   Sales peak during the holiday season (Nov–Dec)
   UK contributes to the majority of sales
   A few products generate most of the revenue
